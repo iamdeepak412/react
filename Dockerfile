@@ -21,4 +21,4 @@ RUN npm run build
 
 # Serve the app
 RUN npm install -g serve
-CMD ["serve", "-s", "build"]
+CMD ["serve", "-s", "build", "-l", "5000"]
